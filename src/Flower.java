@@ -1,3 +1,5 @@
+import javax.management.InvalidAttributeValueException;
+
 public class Flower {
     private String name;
     private String flowerColor;
@@ -8,6 +10,11 @@ public class Flower {
 
 
     Flower(String name, String flowerColor, String country, double cost, int lifeSpan) {
+        this.name = name;
+        this.flowerColor = flowerColor;
+        this.country = country;
+        this.cost = cost;
+        this.lifeSpan = lifeSpan;
 
     }
 
